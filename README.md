@@ -6,7 +6,7 @@ uma taxa Gama que consistem em considerar o bit mais significante de cada númer
 que consiste em considerar o bit Menos significante desses mesmos números.
 Após calcular essas duas taxas, precisamos multiplicá-las entre si para gerar o CEE e por fim converter em formato 
 decimal para fornecer ao usuário final
-<img src="https://github.com/otagomes/hepta2024/blob/main/Painel/wwwroot/app-assets/images/crop-pic.jpg" />
+
 ## Tecnologias envolvidas
 Utilizamos C#.Net Core SDK7 como linguagem de backend para gerar uma API Restfullpadrao que fornece 
 um endpoint /Diagnostico e esse método recebe um texto com todos os números binários separados por vírgula.
@@ -59,3 +59,13 @@ Verificar o projeto DesafioTecnicoHeptaTests
 
 ## Resolução do Desafio
 Verificar o projeto Painel
+
+## Imagens do Projeto
+
+<img src="https://github.com/otagomes/hepta2024/blob/main/hepta01.png" />
+<img src="https://github.com/otagomes/hepta2024/blob/main/hepta02.png" />
+<img src="https://github.com/otagomes/hepta2024/blob/main/hepta03.png" />
+<img src="https://github.com/otagomes/hepta2024/blob/main/hepta04.png" />
+<img src="https://github.com/otagomes/hepta2024/blob/main/hepta05.png" />
+<img src="https://github.com/otagomes/hepta2024/blob/main/hepta06.png" />
+<img src="https://github.com/otagomes/hepta2024/blob/main/hepta07.png" />
