@@ -1,3 +1,4 @@
+## DESAFIO TÉNICO HEPTA - OTÁVIO GOMES 2024
 ## Descrição do Problema
 O desafio consiste em criar um código .Net que calcula o Consumo de Energia Elétrica (CEE)que é um dos pontos de 
 avaliação de diagnóstico de um submarino.
@@ -104,3 +105,5 @@ Normalmente escrevemos manualmente o entendimento dos assuntos que vamos trabalh
 <img src="https://github.com/otagomes/hepta2024/blob/main/hepta05.png" />
 <img src="https://github.com/otagomes/hepta2024/blob/main/hepta06.png" />
 <img src="https://github.com/otagomes/hepta2024/blob/main/hepta07.png" />
+<img src="https://github.com/otagomes/hepta2024/blob/main/hepta08.jpg" />
+<img src="https://github.com/otagomes/hepta2024/blob/main/hepta09.jpg" />
