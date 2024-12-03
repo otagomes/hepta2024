@@ -110,6 +110,7 @@ Normalmente escrevemos manualmente o entendimento dos assuntos que vamos trabalh
 <img src="https://github.com/otagomes/hepta2024/blob/main/hepta09.jpg" />
 <br/>
 <i>
-Por fim, agradecemos a oportunidade de mostrar conhecimento e ser avaliado nesse processo, já estimando  sucesso com a plena certeza de que, por qualquer motivo que não seja eu o profissional escolhido para a vaga, tenho certeza que a Hepta encontrará um profissional com todo o know how e conhecimento necessários para contribuir com o time e a empresa com a mesma qualidade que eu o farei.
+Por fim, agradeço a oportunidade de mostrar conhecimento e ser avaliado nesse processo, já estimando sucesso pois tenho certeza de que poderei aplicar tudo o que aprendi ao longo dos anos como profissional de tecnologia e assim incrementar ainda mais o sucesso do time e da empresa.
+<br/>
 <b>Otávio Gomes</b>
 </i>
