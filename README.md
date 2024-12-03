@@ -1,25 +1,26 @@
 ## DESAFIO TÉNICO HEPTA - OTÁVIO GOMES 2024
 ## Descrição do Problema
-O desafio consiste em criar um código .Net que calcula o Consumo de Energia Elétrica (CEE)que é um dos pontos de 
+O desafio consiste em criar um código .Net que calcula o Consumo de Energia Elétrica (CEE) que é um dos pontos de 
 avaliação de diagnóstico de um submarino.
-Para isso, é preciso receber dados de entrada em formato binário, avaliar esses dados de forma que geram duas taxas: 
-uma taxa Gama que consistem em considerar o bit mais significante de cada número binário fornecido e uma taxa Epsilon
-que consiste em considerar o bit Menos significante desses mesmos números.
+Para isso, é preciso receber dados de entrada em formato binário, avaliar esses dados de forma que gere duas taxas: 
+uma taxa Gama que consiste em considerar o bit MAIS significante de cada número binário fornecido e uma taxa Epsilon
+que consiste em considerar o bit MENOS significante desses mesmos números.
 Após calcular essas duas taxas, precisamos multiplicá-las entre si para gerar o CEE e por fim converter em formato 
-decimal para fornecer ao usuário final
+decimal para fornecer ao usuário final.
 
 ## Tecnologias envolvidas
-Utilizamos C#.Net Core SDK7 como linguagem de backend para gerar uma API Restfullpadrao que fornece 
-um endpoint /Diagnostico e esse método recebe um texto com todos os números binários separados por vírgula.
+Utilizamos C#.Net Core SDK7 como linguagem de backend para gerar uma API Restfull padrão e que fornece 
+um endpoint (/Diagnostico). Esse método recebe um texto com todos os números binários separados por vírgula.
 Além disso, utilizamos padrão MVC aproveitando um código existente em que já temos os pacotes Nugets instalados, UX/UI 
-já definidas, bem como EntitiFrameworkCore, dependências de bancos e dados entre outros, mesmo que não sendo utilizados 
+já definidas, bem como EntitiFrameworkCore, dependências de bancos e dados entre outros, mesmo que sendo utilizados 
 nesse desafio. 
-Fizemos dessa forma visando o reaproveitamento do código em projetos futuros e para disponibilizar três formas de testes:
+Fizemos dessa forma visando o reaproveitamento do código em projetos futuros e para disponibilizar duas formas de testes:
 	a. Testes unitários utilizando xUnit.
-	b. Uma UX Razor que está dentro de Views/Home em que podemos rodar a aplicação e informar os números binários à 
-	   partir de um site gerador de números binários aleatórios, fornecendo uma mensagem de resultado para o usuário 
+	b. Uma UI Razor que está dentro de Views/Home em que podemos rodar a aplicação e substituir os números binários à 
+	   partir de um site gerador de números binários aleatórios, fornecendo por fim uma mensagem de resultado para o usuário 
 	   final.
-	c. Uma interface Swegger em que disponibiliza o endpoint e possibilita testes.
+	c. A fazer: Uma interface Swegger em que disponibiliza o endpoint e possibilita testes.
+        d. Uma aplicação ReactJs para consumir o mesmo endpoint /Diagnostico utilizando autenticação Bearer ou qualquer outro token.
 
 ## Algoritmo
 O algoritmo utilizado foi:
@@ -81,7 +82,7 @@ Para cada número binário em vDadosDiagnostico:
 <br/>
 
 ## Padrão de Projeto Utilizado
-.Net core MVC. Estou habituado a trabalhar com esse padrão e vi que seria o mais indicado para a situação.
+.Net core MVC. Estmos mais habituados a trabalhar com esse padrão e vi que seria o mais indicado para a situação, inclusive para gerar API Rest a ser consumida em React, VueJS, Angular ou qualquer outro frontend.
 
 ## Testes Unitários
 Verificar o projeto DesafioTecnicoHeptaTests
@@ -93,7 +94,7 @@ Verificar o projeto Painel
 Observações:
 <br/>
 Conforme instruído no texto do desafio, o campo para informar os dados binários trazem os números binários passados no próprio 
-texto do desafio e, adicionamos a possibilidade de buscar novos números binários em um site externo, simulando novos relatórios
+ e, adicionamos a possibilidade de buscar novos números binários em um site externo, simulando novos relatórios
 de diagnóstico.
 <br/>
 Normalmente escrevemos manualmente o entendimento dos assuntos que vamos trabalhar e essas anotações são as últimas imagens.
@@ -107,3 +108,8 @@ Normalmente escrevemos manualmente o entendimento dos assuntos que vamos trabalh
 <img src="https://github.com/otagomes/hepta2024/blob/main/hepta07.png" />
 <img src="https://github.com/otagomes/hepta2024/blob/main/hepta08.jpg" />
 <img src="https://github.com/otagomes/hepta2024/blob/main/hepta09.jpg" />
+<br/>
+<i>
+Por fim, agradecemos a oportunidade de mostrar conhecimento e ser avaliado nesse processo, já estimando  sucesso com a plena certeza de que, por qualquer motivo que não seja eu o profissional escolhido para a vaga, tenho certeza que a Hepta encontrará um profissional com todo o know how e conhecimento necessários para contribuir com o time e a empresa com a mesma qualidade que eu o farei.
+<b>Otávio Gomes</b>
+</i>
