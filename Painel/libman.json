@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "jquery@3.7.1",
+      "destination": "wwwroot/js/jquery/",
+      "files": [
+        "jquery.min.js"
+      ]
+    },
+    {
+      "library": "jquery.mask@1.14.16",
+      "destination": "wwwroot/js/",
+      "files": [
+        "jquery.mask.min.js"
+      ]
+    },
+    {
+      "provider": "jsdelivr",
+      "library": "bootstrap-msg@1.0.8",
+      "destination": "wwwroot/js/bootstrap-msg/",
+      "files": [
+        "dist/css/bootstrap-msg.css",
+        "dist/css/bootstrap-msg.css.map",
+        "dist/css/bootstrap-msg.min.css",
+        "dist/js/bootstrap-msg.js",
+        "dist/js/bootstrap-msg.js.map",
+        "dist/js/bootstrap-msg.min.js"
+      ]
+    }
+  ]
+}

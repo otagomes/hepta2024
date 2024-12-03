@@ -1,0 +1,121 @@
+.walkthrough {
+    background: #fff !important;
+}
+
+    .walkthrough .walkthrough-body {
+        align-items: flex-start;
+        display: flex;
+        flex: 1;
+        text-align: center;
+        overflow: scroll;
+        justify-content: center;
+        padding: 2vh;
+    }
+
+.container-pontos {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-tipo-pontuacao {
+    display: flex;
+    position: relative;
+    float: left;
+    background: #665be1;
+    width: 10vh;
+    height: 12vh;
+    border-radius: 2vh;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.card-pontos {
+    list-style: none;
+    margin-bottom: 10vh;
+}
+
+.item-tipo-pontuacao {
+    display: block;
+    position: relative;
+    width: 99%;
+    height: 12vh;
+    background: #8ea7bf;
+    margin-right: 10vh;
+    border-radius: 2vh;
+    box-shadow: 3px 3px 10px 0px #dfdfdf;
+    color: #fff;
+    margin-bottom: 2vh;
+}
+
+.pontos {
+    font-size: 3vh;
+    font-weight: normal !important;
+}
+
+.local {
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+
+.detalhes-item {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.data {
+    font-weight: normal !important;
+}
+
+.icon-sorry {
+    display: flex;
+    position: relative;
+    width: 15vh;
+    height: 15vh;
+    background: #665be1;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15vh;
+    color: #fff;
+}
+
+.sorry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh;
+}
+
+ol, ul {
+    padding-left: 0 !important;
+}
+
+.img-pontuacao-atual {
+    display: flex;
+    position: relative;
+    background: #665be1;
+    width: 8vh;
+    height: 8vh;
+    border-radius: 7vh;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-pontuar {
+    background: #00e8d0;
+    padding: 1vh !important;
+    border-radius: 10vh;
+    width: 20vh;
+    height: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2vh !important;
+    color: #fff;
+    font-size: 3vh;
+    font-weight: bold;
+}

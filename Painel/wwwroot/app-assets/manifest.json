@@ -1,0 +1,31 @@
+{
+  "name": "Prime Educação",
+  "short_name": "prime",
+  "description": "Aplicação mobile Prime Educação da  M3 Global",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/images/icon192x192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icon512x512.png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "theme_color": "#00b500",
+  "background_color": "#00b500",
+  "id": "br.com.m3global.prime",
+  "dir": "auto",
+  "lang": "pt",
+  "orientation": "portrait",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "browser"
+  ],
+  "categories": [
+    "education"
+  ]
+}
